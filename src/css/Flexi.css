@@ -1,0 +1,46 @@
+.flexi {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 4px;
+}
+.flexi__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.flexi__label {
+  color: #666666;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.flexi__input {
+  padding: 10px;
+  color: #666666;
+}
+.flexi__select {
+  padding: 10px;
+  color: #666666;
+}
+.flexi__radiobox input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 4px;
+}
+.flexi__btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+.flexi__btn--primary {
+  background-color: #03a87c;
+}
+.flexi__btn--secondary {
+  background-color: #666666;
+}
